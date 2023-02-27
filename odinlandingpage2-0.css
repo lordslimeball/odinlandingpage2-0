@@ -1,8 +1,16 @@
 /* Black background for header */
 .header{
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+}
+
+ul{
+    list-style: none;
+    display: flex;
 }
