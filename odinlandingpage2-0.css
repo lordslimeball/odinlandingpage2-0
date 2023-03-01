@@ -1,16 +1,46 @@
 /* Black background for header */
+body{
+    display: flex;
+}
 .header{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding: 12px;
+    height: 400px;
+    width: 600px;
+    
+    flex: 1;
+
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
 }
 
 ul{
     list-style: none;
     display: flex;
+}
+
+.herotext{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+    display: flex;
+    align-items: center;
+}
+.subtext{
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.signup{
+    background-color: #388Ff6;
+    border-radius: 10px;
+    height: 40px;
+}
+.threeyeezyheader{
+
 }
