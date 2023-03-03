@@ -1,46 +1,98 @@
-/* Black background for header */
 body{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
 }
+
+/* header of landing page */
 .header{
-    background-color: #1f2937;
     display: flex;
     justify-content: space-between;
     padding: 12px;
-    height: 400px;
-    width: 600px;
-    
-    flex: 1;
-
-}
-.logo{
+    height: 50%;
+    width: 100%;
+    }
+    .logo{
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-}
+    justify-content: flex-end;
+    }
 
-ul{
-    list-style: none;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .herotext{
+        font-size: 48px;
+        font-weight: bolder;
+        color:#F9FAF8;
+        display: flex;
+        align-items: center;
+        }
+    .subtext{
+        font-size:18px;
+        color: #E5E7EB;
+        }
+
+    .signup{
+        background-color: #388Ff6;
+        border-radius: 10px;
+        height: 40px;
+        }
+    .threeyeezyheader{
+        display:flex;
+        height: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+    height: 50%;
+   
+    }
+/* each side of the header */
+.leftsideheader{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.rightsideheader{
+display: flex;
+flex-direction: column;
+}
+/* second section of landing page */
+.body{
     display: flex;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+    .h2body{
+        color: black;
+    }
+    
+.quotesection{
+    background-color: #E5E7EB;
 }
 
-.herotext{
-    font-size: 48px;
-    font-weight: bolder;
-    color:#F9FAF8;
-    display: flex;
-    align-items: center;
-}
-.subtext{
-    font-size:18px;
-    color: #E5E7EB;
-}
-
-.signup{
-    background-color: #388Ff6;
+.calltoaction{
+    background-color: #3882f6;
     border-radius: 10px;
-    height: 40px;
 }
-.threeyeezyheader{
 
+.footer{
+    display: flex;
+ align-items: center;
+ justify-content:center;
+ color: white;
+}
+
+.footer,
+.header{
+    background-color: #1f2937;
 }
