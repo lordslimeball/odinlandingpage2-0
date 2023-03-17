@@ -1,98 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    flex: 1;
+    font-family: 'Roboto';
 }
 
 /* header of landing page */
+.headercontainer{
+    display: flex;    
+}
 .header{
-    display: flex;
-    justify-content: space-between;
-    padding: 12px;
-    height: 50%;
-    width: 100%;
+    
+    display:flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
     }
+
     .logo{
     font-size: 24px;
     color: #F9FAF8;
-    display: flex;
-    justify-content: flex-end;
     }
 
     ul{
         list-style: none;
+        margin:0;
+        padding: 0;
+    }
+
+    .headerlinks{
         display: flex;
-        justify-content: flex-end;
+        justify-content: space-around;
+        font-size:18px;
+        color: #E5E7EB;
     }
 
     .herotext{
         font-size: 48px;
         font-weight: bolder;
         color:#F9FAF8;
-        display: flex;
-        align-items: center;
         }
+
     .subtext{
         font-size:18px;
         color: #E5E7EB;
-        }
+        flex-wrap: wrap;
+    }
 
     .signup{
         background-color: #388Ff6;
         border-radius: 10px;
-        height: 40px;
-        }
+        display: flex;
+        color: white;
+        padding: 10px;
+        align-self: flex-start;
+    }
+    .textnsignup{
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
     .threeyeezyheader{
-        display:flex;
-        height: 50%;
-        justify-content: center;
-        align-items: center;
+       display: flex;
+       margin-left: 20px;
+       width: 450px;
+        height: 200px;
+        align-self: flex-end;
     }
+
     img{
-    height: 50%;
-   
+      height: 100%;
+       width: 100%;
+    object-fit: fill;
     }
+
 /* each side of the header */
 .leftsideheader{
-display: flex;
-flex-direction: column;
-gap: 10px;
+  display: flex;
+  margin-left: 40px;
+  justify-content: space-around;
 }
 .rightsideheader{
-display: flex;
-flex-direction: column;
+ display: flex;
 }
-/* second section of landing page */
-.body{
-    display: flex;
-    background-color: white;
-    justify-content: center;
+.leftsideheader,
+.rightsideheader{
     flex-direction: column;
-    height: 100%;
-}
-    .h2body{
-        color: black;
-    }
-    
-.quotesection{
-    background-color: #E5E7EB;
+    flex: 1;
+    gap: 30px;
+
 }
 
+/* second section of landing page */
+
+.body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bodycontainer{
+    display: flex;
+}
+
+    .h2body{
+        color: black;
+        font-size:36px;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgs{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+        justify-content: space-evenly;
+        }
+        .bodyimagesandtext{
+            display: flex;
+            flex-direction: column;
+                }
+                .bodyimg{
+                    border: 5px;
+                    border-color: #388Ff6;
+                    border-style: solid;
+                    border-radius: 10px;
+                    height: 150px;
+                    width: 150px;
+                }
+                .bodyimagestxt{
+                    width: 150px;
+                }
+            
+.quotesection{
+    background-color: #E5E7EB;
+    display: flex;
+}
+.quotetext{
+    font-size:36px;
+    flex:1;
+    display:flex;
+    margin: 100px;
+}
+.quotebythor{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex: 0;
+}
+
+.callcontainer{
+ padding: 50px;
+}
 .calltoaction{
     background-color: #3882f6;
+    border-radius: 10px;   
+    color: white;
+    padding: 20px;
+}
+.itstime{
+    font-weight: bolder;
+}
+.calltoactionsignup{
     border-radius: 10px;
+    justify-content: flex-end;
 }
 
 .footer{
-    display: flex;
- align-items: center;
- justify-content:center;
  color: white;
+ display: flex;
+ justify-content: center;
 }
 
-.footer,
-.header{
+.footercontainer,
+.headercontainer{
     background-color: #1f2937;
 }
