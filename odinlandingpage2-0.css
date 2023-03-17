@@ -55,11 +55,15 @@ body{
 
     .signup{
         background-color: #388Ff6;
-        border-radius: 10px;
+        border-radius: 5px;
         display: flex;
+        align-items: center;
         color: white;
         padding: 10px;
-        align-self: flex-start;
+        border-style: solid;
+        height:2px;
+        align-self: start;
+        font-weight: bolder;
     }
     .textnsignup{
         display: flex;
@@ -140,17 +144,20 @@ body{
                 .bodyimagestxt{
                     width: 150px;
                 }
-            
+/* third section of landing page */
+
 .quotesection{
     background-color: #E5E7EB;
     display: flex;
 }
-.quotetext{
+
+    .quotetext{
     font-size:36px;
     flex:1;
     display:flex;
     margin: 100px;
 }
+
 .quotebythor{
     font-size: 16px;
     font-weight: bold;
@@ -159,6 +166,7 @@ body{
     justify-content: space-around;
     flex: 0;
 }
+/* fourth section of landing page */
 
 .callcontainer{
  padding: 50px;
@@ -167,16 +175,37 @@ body{
     background-color: #3882f6;
     border-radius: 10px;   
     color: white;
-    padding: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.itstime-signup{
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    margin-left: 40px;
 }
 .itstime{
     font-weight: bolder;
 }
-.calltoactionsignup{
-    border-radius: 10px;
-    justify-content: flex-end;
-}
 
+.calltoactionsignup{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+    background-color: #388Ff6;
+    justify-content: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    height: 2px;
+    align-self: center;
+    
+}
+/* footer of landing page */
 .footer{
  color: white;
  display: flex;
