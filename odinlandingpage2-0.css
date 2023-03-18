@@ -9,6 +9,8 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    margin: 0px;
+
 }
 
 /* header of landing page */
@@ -16,13 +18,12 @@ body{
     display: flex;    
 }
 .header{
-    
     display:flex;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
     }
-
+    
     .logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -97,9 +98,8 @@ body{
 .leftsideheader,
 .rightsideheader{
     flex-direction: column;
-    flex: 1;
     gap: 30px;
-
+    flex:1;
 }
 
 /* second section of landing page */
@@ -126,7 +126,7 @@ body{
     .imgs{
         display: flex;
         flex-direction: row;
-        margin-bottom: 40px;
+        margin-bottom: 80px;
         justify-content: space-evenly;
         }
         .bodyimagesandtext{
@@ -149,22 +149,29 @@ body{
 .quotesection{
     background-color: #E5E7EB;
     display: flex;
+    height: 300px;
 }
 
     .quotetext{
     font-size:36px;
-    flex:1;
-    display:flex;
-    margin: 100px;
+    display:flex;   
+    flex-direction: column;
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.quotemain{
+    display: flex;
+    font-style: italic;
 }
 
 .quotebythor{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-    flex: 0;
+    align-self: flex-end;
+    margin-right: 30px;
 }
 /* fourth section of landing page */
 
@@ -210,6 +217,7 @@ body{
  color: white;
  display: flex;
  justify-content: center;
+
 }
 
 .footercontainer,
